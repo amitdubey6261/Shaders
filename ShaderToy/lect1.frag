@@ -7,6 +7,7 @@ uniform vec2 u_resolution ;
 void main(){
     vec2 fc = gl_FragCoord.xy ; 
     vec2 uv = fc/u_resolution ;
+    
     uv = (uv-.5)*2.0 ;
     uv.x = uv.x*u_resolution.x/u_resolution.y;
 
@@ -16,7 +17,7 @@ void main(){
     float col = 1.0 ; 
     // if( distance < rad ){
     //     col = 1.0 ;
-    // }
+    // }.
     // else{
     //     col = 0.5 ; 
     // }
