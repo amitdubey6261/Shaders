@@ -46,13 +46,7 @@ void main(){
 
     float r1 = createRectangle( .2 , .2 , .0 , .6 , uv , .01 ); 
 
-
-
     float mask ;
-
-    // mask += c1 ;  
-    // mask += c2 ;  
-    mask += r1 ;
 
     gl_FragColor = vec4( mask , 0 , 0 , 1 );
 }
