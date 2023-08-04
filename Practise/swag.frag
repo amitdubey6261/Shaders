@@ -35,7 +35,7 @@ vec3 createFace(vec2 uv){
     float face_outRad = .3 ; 
     float face_smooth = .01 ;
 
-    vec3 faceColor = vec3( 1. , 1 , 0 ) ; 
+    vec3 faceColor = vec3( 1. , 0 , 0 ) ; 
 
     vec3 face_outer = circle( face_outRad , face_smooth , uv , facePos , faceColor ) ; 
     return face_outer ;
@@ -46,7 +46,7 @@ vec3 createMid( vec2 uv ){
     float Mid_outRad = .4 ; 
     float Mid_smooth = .01 ;
 
-    vec3 MidColor = vec3( 1. , 1 , 0 ) ; 
+    vec3 MidColor = vec3( 1. , 0 , 0 ) ; 
 
     vec3 Mid_outer = circle( Mid_outRad , Mid_smooth , uv , MidPos , MidColor ) ; 
     return Mid_outer ;
